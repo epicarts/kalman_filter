@@ -58,7 +58,7 @@ plt.close(fig)
 
 #RSSI_2 과 칼만필터를 적용한 RSSI_2를 비교
 fig, ax = plt.subplots()
-ax.plot(result_row['RSSI_2'],'r',y,'b')
+ax.plot(result_row['RSSI_2'],'r',y,'b') 
 fig.set_size_inches(40,10)
 fig.savefig('RSSI_2.png')
 plt.close(fig)
